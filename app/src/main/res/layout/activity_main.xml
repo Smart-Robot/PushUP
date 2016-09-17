@@ -115,4 +115,23 @@
         android:layout_alignEnd="@+id/button9"
         android:onClick="onButton10Clicked" />
 
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Naver"
+        android:id="@+id/button20"
+        android:layout_below="@+id/button5"
+        android:layout_alignStart="@+id/button5"
+        android:layout_marginTop="39dp"
+        android:onClick="onButton20Clicked" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="telephon"
+        android:id="@+id/button21"
+        android:layout_alignBottom="@+id/button20"
+        android:layout_alignStart="@+id/button10"
+        android:onClick="onButton21Clicked" />
+
 </RelativeLayout>

@@ -1,6 +1,7 @@
 package com.example.administrator.pushup;
 
 import android.content.Intent;
+import android.net.Uri;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
@@ -75,6 +76,16 @@ public class MainActivity extends AppCompatActivity {
     public void onButton10Clicked(View v){
         //Toast.makeText(MainActivity.this, "버튼 10이 클릭되었습니다.", Toast.LENGTH_SHORT).show();
         Intent intent = new Intent(this, Menu10Activity.class);
+        startActivity(intent);
+    }
+
+    public void onButton20Clicked(View v){
+        Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse("http://m.naver.com"));
+        startActivity(intent);
+    }
+
+    public void onButton21Clicked(View v){
+        Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse("tel:010-6213-3612"));
         startActivity(intent);
     }
 }

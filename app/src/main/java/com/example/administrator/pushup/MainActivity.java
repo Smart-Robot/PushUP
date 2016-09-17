@@ -57,5 +57,4 @@ public class MainActivity extends AppCompatActivity {
     public void onButton10Clicked(View v){
         Toast.makeText(MainActivity.this, "버튼 10이 클릭되었습니다.", Toast.LENGTH_SHORT).show();
     }
-
 }

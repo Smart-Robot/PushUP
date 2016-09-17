@@ -18,7 +18,7 @@
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Tosat Text 01"
+        android:text="Intend Test 01"
         android:id="@+id/button1"
         android:layout_marginTop="56dp"
         android:layout_below="@+id/textView"
@@ -28,7 +28,7 @@
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Tosat Text 02"
+        android:text="Intend Test 02"
         android:id="@+id/button2"
         android:layout_alignParentStart="true"
         android:layout_below="@+id/button1"
@@ -39,7 +39,7 @@
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Tosat Text 03"
+        android:text="Intend Test 03"
         android:id="@+id/button3"
         android:layout_alignParentStart="true"
         android:layout_below="@+id/button2"
@@ -50,7 +50,7 @@
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Tosat Text 04"
+        android:text="Intend Test 04"
         android:id="@+id/button4"
         android:layout_alignParentStart="true"
         android:layout_below="@+id/button3"
@@ -61,7 +61,7 @@
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Tosat Text 05"
+        android:text="Intend Test 05"
         android:id="@+id/button5"
         android:layout_alignParentStart="true"
         android:layout_below="@+id/button4"
@@ -72,7 +72,7 @@
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Tosat Text 06"
+        android:text="Intend Test 06"
         android:id="@+id/button6"
         android:layout_alignTop="@+id/button1"
         android:layout_alignParentEnd="true"
@@ -82,7 +82,7 @@
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Tosat Text 07"
+        android:text="Intend Test 07"
         android:id="@+id/button7"
         android:layout_below="@+id/button6"
         android:layout_alignEnd="@+id/button6"
@@ -91,7 +91,7 @@
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Tosat Text 08"
+        android:text="Intend Test 08"
         android:id="@+id/button8"
         android:layout_above="@+id/button4"
         android:layout_alignStart="@+id/button7"
@@ -100,7 +100,7 @@
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Tosat Text 09"
+        android:text="Intend Test 09"
         android:id="@+id/button9"
         android:layout_above="@+id/button5"
         android:layout_alignEnd="@+id/button8"
@@ -109,7 +109,7 @@
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Tosat Text 10"
+        android:text="Intend Test 10"
         android:id="@+id/button10"
         android:layout_alignBottom="@+id/button5"
         android:layout_alignEnd="@+id/button9"

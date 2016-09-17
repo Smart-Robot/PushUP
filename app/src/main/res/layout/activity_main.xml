@@ -12,5 +12,107 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello World!" />
+        android:text="Hello World!"
+        android:id="@+id/textView" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tosat Text 01"
+        android:id="@+id/button1"
+        android:layout_marginTop="56dp"
+        android:layout_below="@+id/textView"
+        android:layout_alignStart="@+id/button2"
+        android:onClick="onButton01Clicked" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tosat Text 02"
+        android:id="@+id/button2"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/button1"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="23dp"
+        android:onClick="onButton02Clicked" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tosat Text 03"
+        android:id="@+id/button3"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/button2"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="23dp"
+        android:onClick="onButton03Clicked" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tosat Text 04"
+        android:id="@+id/button4"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/button3"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="23dp"
+        android:onClick="onButton04Clicked" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tosat Text 05"
+        android:id="@+id/button5"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/button4"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="23dp"
+        android:onClick="onButton05Clicked" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tosat Text 06"
+        android:id="@+id/button6"
+        android:layout_alignTop="@+id/button1"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="35dp"
+        android:onClick="onButton06Clicked" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tosat Text 07"
+        android:id="@+id/button7"
+        android:layout_below="@+id/button6"
+        android:layout_alignEnd="@+id/button6"
+        android:onClick="onButton07Clicked" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tosat Text 08"
+        android:id="@+id/button8"
+        android:layout_above="@+id/button4"
+        android:layout_alignStart="@+id/button7"
+        android:onClick="onButton08Clicked" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tosat Text 09"
+        android:id="@+id/button9"
+        android:layout_above="@+id/button5"
+        android:layout_alignEnd="@+id/button8"
+        android:onClick="onButton09Clicked" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tosat Text 10"
+        android:id="@+id/button10"
+        android:layout_alignBottom="@+id/button5"
+        android:layout_alignEnd="@+id/button9"
+        android:onClick="onButton10Clicked" />
+
 </RelativeLayout>
